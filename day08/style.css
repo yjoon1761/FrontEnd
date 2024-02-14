@@ -1,0 +1,19 @@
+fieldset {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+
+img{
+    width: 45px;
+}
+
+div{
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+    font-size: 20px;
+    background-color: mediumpurple;
+    color: white;
+}

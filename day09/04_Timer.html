@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+
+    <title>타이머</title>
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>타이머</legend>
+        <div class="container">
+            <div class="item">
+                <input id="hour" type="text" />
+                <button class="button btn1" id="hUp">↑</button>
+                <button class="button btn2" id="hDown">↓</button>
+                <label for="hour">시간</label>
+            </div>
+            <div class="item">
+                <input id="min" type="text" />
+                <button class="button btn1" id="mUp">↑</button>
+                <button class="button btn2" id="mDown">↓</button>
+                <label for="min">&nbsp;&nbsp;분&nbsp;</label>
+            </div>
+            <div class="item">
+                <input id="sec" type="text" />
+                <button class="button btn1" id="sUp">↑</button>
+                <button class="button btn2" id="sDown">↓</button>
+                <label for="sec">&nbsp;&nbsp;초&nbsp;</label>
+            </div>
+            <div class="item">
+                <button id="start">시작</button>
+                <button id="reset">리셋</button>
+            </div>
+        </div>
+        <hr />
+        <table>
+            <tr>
+                <td onclick="plusS()">10초</td>
+                <td onclick="plusM(1)">1분</td>
+                <td onclick="plusM(5)">5분</td>
+                <td onclick="plusM(10)">10분</td>
+                <td onclick="plusM(30)">30분</td>
+                <td onclick="plusH()">1시간</td>
+            </tr>
+        </table>
+    </fieldset>
+
+</body>
+
+<script src="Timer.js">
+    
+</script>
+
+</html>

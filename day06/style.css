@@ -1,0 +1,68 @@
+div {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#wrap {
+    background-color: steelblue;
+    width: 550px;
+    height: 780px;
+}
+
+#result {
+    height: 100px;
+    line-height: 100px;
+    font-size: 30px;
+    background-color: salmon;
+}
+
+#btn {
+    background-color: white;
+    overflow: hidden;
+}
+
+.num {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color: skyblue;
+}
+
+.oper, .enter {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+.num0 {
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color: skyblue;
+}
+
+.oper1 {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color: lightskyblue;
+}
+
+.num:active, .num0:active, .oper1:active {
+    background-color: black;
+    color: white;
+}
+
+.oper:active, .enter:active {
+    background-color: skyblue;
+    color: black;
+}

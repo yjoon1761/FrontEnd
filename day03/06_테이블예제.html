@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <title>테이블 예제</title>
+</head>
+<body>
+    <table>
+        <caption>현재 상영중인 영화정보</caption>
+        <tr>
+            <th rowspan="2">구분</th>
+            <th colspan="4">영화 정보</th>
+        </tr>
+
+        <tr>
+            <th>영화 제목</th>
+            <th>세부 정보</th>
+            <th>등급</th>
+            <th>상영시간</th>
+        </tr>
+        <tr>
+            <th rowspan="3"><img src="./존윅4.jpg" width="100px"></th>
+            <td rowspan="3">존윅4</td>
+            <td>느와르</td>
+            <td rowspan="3">청소년 관람불가</td>
+            <td rowspan="3" class="b">169분</td>
+        </tr>
+        <tr>
+            <td>미국</td>
+        </tr>
+        <tr>
+            <td>2023.04.12 개봉</td>
+        </tr>
+        <tr>
+            <th rowspan="3"><img src="./가문의 영광.jpg" width="100px" ></th>
+            <td rowspan="3">가문의 영광 : 리턴즈</td>
+            <td>코미디</td>
+            <td rowspan="3">15세 이상 관람가</td>
+            <td rowspan="3" class="b">99분</td>
+        </tr>
+        <tr>
+            <td>한국</td>
+        </tr>
+        <tr>
+            <td>2023.09.21 개봉</td>
+        </tr>
+        <tr>
+            <th>출처</th>
+            <th colspan="4"><a href="http://www.cine21.com/movie/lists/playing">씨네21 영화정보</a></th>
+        </tr>
+    </table>
+</body>
+</html>

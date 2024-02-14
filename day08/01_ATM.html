@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+
+    <title>ATM 만들기</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend><img src="./ATM.PNG" /></legend>
+         <input type="text" id="amount" 
+                placeholder="금액을 입력하세요" onclick="Account.clean()">
+         <img src="./입금.PNG" onclick="Account.deposit()" />
+         <img src="./출금.PNG" onclick="Account.withdraw()" />
+         <img src="./잔액.PNG" onclick="Account.msg()" />
+         <h4 id="result"></h4>
+    </fieldset>
+</body>
+
+<script src="./atm.js">
+
+</script>
+
+</html>
